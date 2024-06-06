@@ -7,7 +7,6 @@ import { useRouter } from "next/navigation";
 
 interface SignupFormValues {
   name: string;
-  email: string;
   password: string;
 }
 
