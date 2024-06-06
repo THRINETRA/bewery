@@ -10,7 +10,7 @@ interface Props {
   children: ReactNode;
 }
 
-const Mainrender: React.FC<Props> = ({ children }) => {
+const Mainrender: React.FC<Props> = ({ children }: { children: any }) => {
   const [breweries, setBreweries] = useState<Brewery[]>([]);
   const filterData = (name: string) => {
     console.log(name);
